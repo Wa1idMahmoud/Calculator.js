@@ -1,0 +1,44 @@
+/* This will make the background Colour Grey. We also want to center everything in the middle using flex etc. */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(51, 84, 84);
+}
+
+/* This is the calculator that calls the class, dot is for class. This is making the actual calculator a colour and giving it a boarder radius shape. */
+
+.calculator {
+    background-color: rgb(211,211,211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.screen {
+    width: 224px;
+    background-color: rgb(176, 205, 176);
+    font-size: 40px;
+    text-align: end;
+    padding: 4px;
+}
+
+/* This will make the buttons size to the specified amount */
+.buttons {
+    width: 232px;
+
+}
+
+/* This will make every button a specific size and colour. */
+button {
+    background-color: rgb(131, 129, 129);
+    border: none;
+    color: rgb(255,255,255);
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;  
+    margin: 4px;
+}
