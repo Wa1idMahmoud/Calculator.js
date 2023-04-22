@@ -1,10 +1,3 @@
-@media only screen and (max-width: 600px) {
-    .calculator {
-      font-size: 18px;
-    }
-  }
-  
-
 /* This will make the background Colour Grey. We also want to center everything in the middle using flex etc. */
 
 body {
