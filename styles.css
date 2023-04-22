@@ -14,20 +14,31 @@ body {
     background-color: rgb(211,211,211);
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
 .screen {
-    width: 224px;
+    min-height: 60px;
+    max-height: 200px;
     background-color: rgb(176, 205, 176);
     font-size: 40px;
     text-align: end;
     padding: 4px;
-}
+    overflow-y: auto;
+  }
+
+
+
+
 
 /* This will make the buttons size to the specified amount */
 .buttons {
     width: 232px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -42,3 +53,44 @@ button {
     border-radius: 25px;  
     margin: 4px;
 }
+
+/* This will change colour when we hover our mouse over the buttons. */
+button:hover {
+    background-color: rgb(111,110,110);
+}
+
+/* This will make teh button white when you press the button */
+button:active {
+    background-color: rgb(232,232,232);
+}
+
+/* This will make the colour of the = to red. */
+#equals {
+    background-color: rgb(218,2,2);
+}
+
+/* This will make the = a darker red when hovering over to show its the hovered button. */
+#equals:hover {
+    background-color: rgb(198,1,1);
+}
+
+/* This will make the clear button the same size as the CLEAR text and will make it Yellow */
+#clear {
+    width: 100%;
+    background-color: rgb(252,226,27);
+    font-size: 30px;
+}
+
+/* This will make the button a darker yellow when hovering over it. */
+#clear:hover {
+    background-color: rgb(252,201,27);
+
+}
+
+
+
+
+
+
+
+
