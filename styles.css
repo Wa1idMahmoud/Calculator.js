@@ -16,6 +16,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color:rgb(51, 84, 84);
+    flex-wrap: wrap;
 }
 
 /* This is the calculator that calls the class, dot is for class. This is making the actual calculator a colour and giving it a boarder radius shape. */
