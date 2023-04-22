@@ -1,5 +1,7 @@
 # Calculator.js
 
+### To View a view demo of the Calculator please visit this link: [Calculator.js](https://wa1idmahmoud.github.io/Calculator.js/)
+
 This is using the eval method [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) to evaluate the calculations. 
 
 
