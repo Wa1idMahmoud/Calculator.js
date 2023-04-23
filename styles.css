@@ -1,12 +1,8 @@
+
 .column {
     width: 100%;
   }
   
-  @media (min-width: 600px) {
-    .column {
-      width: 50%;
-    }
-  }
 
 /* This will make the background Colour Grey. We also want to center everything in the middle using flex etc. */
 
